@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:coaf='http://www.coaf.fazenda.gov.br/'>
+<soapenv:Header/>
+<soapenv:Body>
+<coaf:CancelarLoteComunicacao>
+<coaf:lote>
+<![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<LOTECANCELAMENTO>
+<OCORRENCIAS ID='SISCOAF141120182018-10766'>
+<OCORRENCIA>
+<NUMEROORIGEM>SISCOAF201811142018-10910</NUMEROORIGEM>
+<NUMEROCOAF>14098347</NUMEROCOAF>
+<AUTENTICACAO>571269c8a46d5643fb3af6faa685b945</AUTENTICACAO>
+</OCORRENCIA>
+</OCORRENCIAS>
+</LOTECANCELAMENTO>
+]]>
+</coaf:lote>
+</coaf:CancelarLoteComunicacao>
+</soapenv:Body>
+</soapenv:Envelope>

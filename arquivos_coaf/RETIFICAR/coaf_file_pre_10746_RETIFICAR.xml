@@ -1,0 +1,50 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:coaf='http://www.coaf.fazenda.gov.br/'>
+<soapenv:Header/>
+<soapenv:Body>
+<coaf:RetificarLoteComunicacao>
+<coaf:lote>
+<![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<LOTERETIFICACAO>
+<OCORRENCIAS ID='SISCOAF301020182018-10746'>
+<OCORRENCIA>
+<NumOcorrencia>SISCOAF201810302018-10891</NumOcorrencia>
+<NumeroCOAF>14098319</NumeroCOAF>
+<CPFCNPJCom>92894922000108</CPFCNPJCom>
+<DtInicio>08/10/2018</DtInicio>
+<DtFim>21/10/2018</DtFim>
+<AgNum>1</AgNum>
+<AgNome>MATRIZ</AgNome>
+<AgMun>SAO PAULO</AgMun>
+<AgUF>SP</AgUF>
+<Det>sdsdsdsdsdsds</Det>
+<VlCred>1000</VlCred>
+<VlDeb>0</VlDeb>
+<VlProv>0</VlProv>
+<VlProp>0</VlProp>
+<ENQUADRAMENTOS>
+<CodEnq>569</CodEnq>
+<CodEnq>570</CodEnq>
+</ENQUADRAMENTOS>
+<ENVOLVIDOS>
+<ENVOLVIDO>
+<CPFCNPJEnv>15318095453</CPFCNPJEnv>
+<NmEnv>CELTO ISAAC</NmEnv>
+<TpEnv>1</TpEnv>
+<AgNumEnv>1</AgNumEnv>
+<AgNomeEnv>MATRIZ</AgNomeEnv>
+<NumConta>744620</NumConta>
+<DtAbConta>24/04/2015</DtAbConta>
+<DtAtuaCad>24/10/2018</DtAtuaCad>
+<PObrigada>0</PObrigada>
+<PEP>0</PEP>
+<ServPub>1</ServPub>
+</ENVOLVIDO>
+</ENVOLVIDOS>
+</OCORRENCIA>
+</OCORRENCIAS>
+</LOTERETIFICACAO>
+]]>
+</coaf:lote>
+</coaf:RetificarLoteComunicacao>
+</soapenv:Body>
+</soapenv:Envelope>

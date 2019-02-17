@@ -1,0 +1,107 @@
+<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:coaf='http://www.coaf.fazenda.gov.br/'>
+<soapenv:Header/>
+<soapenv:Body>
+<coaf:RetificarLoteComunicacao>
+<coaf:lote>
+<![CDATA[<?xml version='1.0' encoding='ISO-8859-1' standalone='no'?>
+<LOTERETIFICACAO>
+<OCORRENCIAS ID='SISCOAF301020182018-10746'>
+<OCORRENCIA>
+<NumOcorrencia>SISCOAF201810302018-10891</NumOcorrencia>
+<NumeroCOAF>14098319</NumeroCOAF>
+<CPFCNPJCom>92894922000108</CPFCNPJCom>
+<DtInicio>08/10/2018</DtInicio>
+<DtFim>21/10/2018</DtFim>
+<AgNum>1</AgNum>
+<AgNome>MATRIZ</AgNome>
+<AgMun>SAO PAULO</AgMun>
+<AgUF>SP</AgUF>
+<Det>sdsdsdsdsdsds</Det>
+<VlCred>1000</VlCred>
+<VlDeb>0</VlDeb>
+<VlProv>0</VlProv>
+<VlProp>0</VlProp>
+<ENQUADRAMENTOS>
+<CodEnq>569</CodEnq>
+<CodEnq>570</CodEnq>
+</ENQUADRAMENTOS>
+<ENVOLVIDOS>
+<ENVOLVIDO>
+<CPFCNPJEnv>15318095453</CPFCNPJEnv>
+<NmEnv>CELTO ISAAC</NmEnv>
+<TpEnv>1</TpEnv>
+<AgNumEnv>1</AgNumEnv>
+<AgNomeEnv>MATRIZ</AgNomeEnv>
+<NumConta>744620</NumConta>
+<DtAbConta>24/04/2015</DtAbConta>
+<DtAtuaCad>24/10/2018</DtAtuaCad>
+<PObrigada>0</PObrigada>
+<PEP>0</PEP>
+<ServPub>1</ServPub>
+</ENVOLVIDO>
+</ENVOLVIDOS>
+</OCORRENCIA>
+</OCORRENCIAS>
+<Signature xmlns='http://www.w3.org/2000/09/xmldsig#'>
+<SignedInfo>
+<CanonicalizationMethod Algorithm='http://www.w3.org/TR/2001/REC-xml-c14n-20010315'/>
+<SignatureMethod Algorithm='http://www.w3.org/2000/09/xmldsig#rsa-sha1'/>
+<Reference URI='#SISCOAF301020182018-10746'>
+<Transforms>
+<Transform Algorithm='http://www.w3.org/2000/09/xmldsig#enveloped-signature'/>
+<Transform Algorithm='http://www.w3.org/TR/2001/REC-xml-c14n-20010315'/>
+</Transforms>
+<DigestMethod Algorithm='http://www.w3.org/2000/09/xmldsig#sha1'/>
+<DigestValue>DmMQ5aLlJWfixEuWSWCFTqMazos=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>LJG40Ndyq8RZBVr1G2mpZI8F747zzB6JbHPH2J+3z26J1ClWalr9fbug/cIbDo/fz1imHyAWCUtZ
+l9cKvQjDcQ4CJtrjTz+j3pN1Lym1oUKtc4m9chLbGIc4YkjvOxU6ll3tQwTJF7cFwv3Sq2CNWsZn
+Kw5FLMXJ5/FX8UvJ+ePPw7dI/kD0XPSZSWNttEP7IYhU1fSYEOl9aoxNaSjrIdKKdI3fYV7CdDw6
+cE4erV6Vwv6ycmYdHJ5Qo/P2njOWlxgVCynizTcYnvCubPqROgBwkLUmeuTxemJMG28dIpEolYNp
+7ISkW9whDRuNS/Ia9QpmjK44aaMR2IV9mLp4gQ==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIHaTCCBVGgAwIBAgIIKfcICPimpuEwDQYJKoZIhvcNAQELBQAwdTELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoMCklDUC1CcmFzaWwxNjA0BgNVBAsMLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFs
+IGRvIEJyYXNpbCAtIFJGQjEZMBcGA1UEAwwQQUMgU0VSQVNBIFJGQiB2NTAeFw0xNzExMjQxNDAw
+MDBaFw0xODExMjQxNDAwMDBaMIG+MQswCQYDVQQGEwJCUjETMBEGA1UECgwKSUNQLUJyYXNpbDE2
+MDQGA1UECwwtU2VjcmV0YXJpYSBkYSBSZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRUw
+EwYDVQQLDAxSRkIgZS1DUEYgQTExFDASBgNVBAsMCyhFTSBCUkFOQ08pMRIwEAYDVQQLDAlBUiBT
+RVJBU0ExITAfBgNVBAMMGFJBRkFFTCBSVVNTSToyOTU0NDgyMTg0ODCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAMT/jImXUAlr7yRBdzAsii5jOtE4KtfrK722FRHLgp0p3q5ni00G24gE
+AmMOkZtT3wZIPaD2MThFbnQ6UlU8rGUoo4/S3gc2NK6p69LpzuIXwXWVNcxRxbkCXd1i+FgJSjpU
+Sw3YspsTHwvJVhvy0lrgndxRV2uPvtXfy3494NzSteE8CSxw8DddIRB5d1/gEEmWsp+BLwsJEC9K
+hFku6yyoK+dHa00E7/tILc/dTp/6QYNUZk13o2Ub7AlvLqglHHd85Jk15viEQBAHTUAvEkiCLYZt
+iOLtK71SnYbZ7WrSTqXXMeVTrmnlzFfNsxK1a8TZNe2z0Y436MyRAzwnVwkCAwEAAaOCArEwggKt
+MAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAU7PFBUVeo5jrpXrOgIvkIirU6h48wgZkGCCsGAQUFBwEB
+BIGMMIGJMEgGCCsGAQUFBzAChjxodHRwOi8vd3d3LmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIv
+Y2FkZWlhcy9zZXJhc2FyZmJ2NS5wN2IwPQYIKwYBBQUHMAGGMWh0dHA6Ly9vY3NwLmNlcnRpZmlj
+YWRvZGlnaXRhbC5jb20uYnIvc2VyYXNhcmZidjUwgaAGA1UdEQSBmDCBlYEbUkFGQUVMLlJVU1NJ
+QE9SR0lOQUwuQ09NLkJSoD0GBWBMAQMBoDQTMjMwMTExOTgxMjk1NDQ4MjE4NDgxMzAxNDM2Mjg1
+ODAwMDAwMDAzNDI3NTUzOVNTUFNQoB4GBWBMAQMFoBUTEzAwMDAwMDAwMDAwMDAwMDAwMDCgFwYF
+YEwBAwagDhMMMDAwMDAwMDAwMDAwMHEGA1UdIARqMGgwZgYGYEwBAgENMFwwWgYIKwYBBQUHAgEW
+Tmh0dHA6Ly9wdWJsaWNhY2FvLmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIvcmVwb3NpdG9yaW8v
+ZHBjL2RlY2xhcmFjYW8tcmZiLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwgZ0G
+A1UdHwSBlTCBkjBKoEigRoZEaHR0cDovL3d3dy5jZXJ0aWZpY2Fkb2RpZ2l0YWwuY29tLmJyL3Jl
+cG9zaXRvcmlvL2xjci9zZXJhc2FyZmJ2NS5jcmwwRKBCoECGPmh0dHA6Ly9sY3IuY2VydGlmaWNh
+ZG9zLmNvbS5ici9yZXBvc2l0b3Jpby9sY3Ivc2VyYXNhcmZidjUuY3JsMA4GA1UdDwEB/wQEAwIF
+4DANBgkqhkiG9w0BAQsFAAOCAgEAJ52FT5VpI4qr+1A6QcfzvdrpvgaRpK11lMbVW6ebKkWT8SWx
+vZXSel+x4v8dCTKTpZCgKqf4uqvIgfrAUTFgmk2JoC1IuQuGUt4Jp5gvdFeGy1Z0XZQz7q2uAycU
+gsJFBUNQvTgYD1NHNRNg+EJ++/FA3+1xPzfXYBvvQf5wgKTvLa6jiKyasEL6YeypRtxqCy4B+USI
+u9q9+iOUDaT1JRbRwCzD4lDyzK2R3fT1ifj/rnWz65D+sSQhs/gCwMkYN3bCs5bofJCq3eQR2Kl+
+2ijL8CAUL9wdWQGGa6CNTAqfqAbxt+HkRSEOTz6A+Ij2lD+AwpgnuR5wbLlwydv/lxtyruBVZieV
+2r6FRgRwShV8MYpS0HesI26gy8J5DT7EMjsWngNblbErZqyRMN0ZMzZ2UCseoyEbQV1vBXfJDgMa
+CS0Zg/VJdashDERV7BuMC47TAO68APdAPPqcNNvhnbOiTpaJwua2ksuvUt6pd6sg2oZ01abY1FLj
+w4QAdx1D8xR9WxTwWe56u5VpPeB2WQjZl1k8ALNwkoakHc+Bb2Nt1d6q4G1umBTEEfekwI4T1n79
+cV2z0hEGT8WK48aU8dsONBX8CQablFs03ifDh1sXSqikL3077CGLXtd4S2/O1EPtKFPzGYTFWMp1
+QxhAgIAKHG05XSpr0AuIt8zu3/o=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</LOTERETIFICACAO>
+]]>
+</coaf:lote>
+</coaf:RetificarLoteComunicacao>
+</soapenv:Body>
+</soapenv:Envelope>

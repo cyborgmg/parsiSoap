@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<LOTE>
+<OCORRENCIAS ID='SISCOAF271120182018-10786'>
+<OCORRENCIA>
+<NumOcorrencia>SISCOAF201811262018-10953</NumOcorrencia>
+<CPFCNPJCom>92894922000108</CPFCNPJCom>
+<DtInicio>31/10/2018</DtInicio>
+<DtFim>03/11/2018</DtFim>
+<AgNum>1</AgNum>
+<AgNome>MATRIZ</AgNome>
+<AgMun>SAO PAULO</AgMun>
+<AgUF>SP</AgUF>
+<Det>Teste</Det>
+<VlCred>a0</VlCred>
+<VlDeb>200000</VlDeb>
+<VlProv>0</VlProv>
+<VlProp>0</VlProp>
+<ENQUADRAMENTOS>
+<CodEnq>570</CodEnq>
+<CodEnq>573</CodEnq>
+</ENQUADRAMENTOS>
+<ENVOLVIDOS>
+<ENVOLVIDO>
+<CPFCNPJEnv>11228083215</CPFCNPJEnv>
+<NmEnv>EDUARDA QUINTÃO</NmEnv>
+<TpEnv>1</TpEnv>
+<AgNumEnv>1</AgNumEnv>
+<AgNomeEnv>MATRIZ</AgNomeEnv>
+<NumConta>645290</NumConta>
+<DtAbConta>29/04/2009</DtAbConta>
+<DtAtuaCad>15/04/2015</DtAtuaCad>
+<PObrigada>0</PObrigada>
+<PEP>0</PEP>
+<ServPub>0</ServPub>
+</ENVOLVIDO>
+<ENVOLVIDO>
+<CPFCNPJEnv>23929354160</CPFCNPJEnv>
+<NmEnv>VITORIA ARAUJO AZEVEDO</NmEnv>
+<TpEnv>8</TpEnv>
+<AgNumEnv>1</AgNumEnv>
+<AgNomeEnv>MATRIZ</AgNomeEnv>
+<NumConta>757110</NumConta>
+<DtAbConta>14/03/2016</DtAbConta>
+<DtAtuaCad>11/10/2017</DtAtuaCad>
+<PObrigada>0</PObrigada>
+<PEP>0</PEP>
+<ServPub>0</ServPub>
+</ENVOLVIDO>
+</ENVOLVIDOS>
+</OCORRENCIA>
+</OCORRENCIAS>
+</LOTE>
